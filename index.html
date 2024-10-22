@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>SBA HTML & CSS</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+    <ul>
+        <li><img id="logo" src="./images/Logo.png" alt="Logo"> <br></li>
+        <li class="playfair-display-nav"><a class="active" href="./index.html">Homepage</a></li>
+        <li class="playfair-display-nav"><a href="./about.html">About Me</a></li>
+        <li class="playfair-display-nav"><a href="./design.html">Design Ideas</a></li>
+        <li class="playfair-display-nav"><a href="./packages.html">Packages</a></li>
+        <li>
+            <h3 class="playfair-display-heading">Imani Carolyn Organization & Design</h3>
+        </li>
+        <li class="playfair-display-nav" style="float: right;"><a href="./gallery.html">Gallery</a></li>
+    </ul>
+
+    <div style="padding-bottom: 3em;" id="homepage">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div style="height: 30em; border-top-left-radius: 25px; border-top-right-radius: 25px;"
+                class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/Nash 1 (1).JPG" class="d-block w-100" alt="Nash project photo 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Nash 1 (2).JPG" class="d-block w-100" alt="Nash project photo 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Nash 1 (3).JPG" class="d-block w-100" alt="Nash project photo 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Nash 1 (4).JPG" class="d-block w-100" alt="Nash project photo 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Nash 1 (5).JPG" class="d-block w-100" alt="Nash project photo 5">
+                </div>
+            </div>
+        </div>
+        <div id="wording">
+            <h3 style="text-align: start; width: 15em;" class="playfair-display-heading">Affordable Interior Design &
+                Organization for every type of home.</h3>
+            <p style="text-align: end; width: 20em;" class="playfair-display-nav">I am here to help with whatever
+                organization & interior design needs you may have, no matter how big or small at a price you can afford
+                & quality you can't beat.</p>
+            
+        </div>
+        <div style="display: flex; justify-content: center;">
+        <button id="spin" style="color: white; background-color: #333333ff;" class="playfair-display-nav" type="button">
+            Book Your Consultation!
+    </button>
+    </div>
+       
+    </div>
+    <div style="display: block;">
+        <div id="benefits">
+            <div style="padding: 15px;" id="box1">
+                <p style="color: white;" class="playfair-display-nav">You get value design in your home at affordable
+                    prices.</p>
+            </div>
+            <div style="padding: 15px;" id="box1">
+                <p style="color: white;" class="playfair-display-nav">You are included in the process without doing the
+                    heavy lifting.</p>
+            </div>
+            <div style="padding: 15px;" id="box1">
+                <p style="color: white;" class="playfair-display-nav">Organization services always include deep
+                    cleaning.</p>
+            </div>
+        </div>
+        <div id="gif" style="width: 25em; margin-left: auto; margin-right: auto; margin-top: none;">
+            <p class="playfair-display-nav">"You completely transformed this space!" -Customer</p>
+            <hr>
+            <img style="width: 25em; height: 20em; margin-left: auto; margin-right: auto;"
+                src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzQ3aG9pdWVoODJvYmZxMTV6bjdydGk4emV3cGx2Z2N4cnBxNjA3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1rKajvxxEnEeaVyA6J/giphy.gif"
+                alt="designing room gif">
+                <hr>
+                <p class="playfair-display-nav">"The before & after are hardly recognizable." -Customer</p>
+
+        </div>
+    </div>
+
+    <div class="contact">
+<form action="#">
+    <label for="contact">Questions or Need More Information? <br>
+        <input style="margin-top: 1em;" type="name" name="contact" id="contact" placeholder="First & Last Name">
+        <br> <br>
+        <input style="margin-bottom: 1em;" type="email" name="email" id="email" placeholder="Email Address">
+    </label>
+</form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
